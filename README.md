@@ -1,6 +1,6 @@
 # Projeto: Git Wiki
 
-Este projeto foi desenvolvido como parte do deafio **Criando Uma Wiki de Repositórios do GitHub Com React - Digital Innovation One**.
+Este projeto foi desenvolvido como parte do desafio **Criando Uma Wiki de Repositórios do GitHub Com React - Digital Innovation One**.
 
 ![GitWiki](./public/preview1.png)
 ![GitWiki](./public/preview2.png)
