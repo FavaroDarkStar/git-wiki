@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# Projeto: Git Wiki
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto foi desenvolvido como parte do deafio **Criando Uma Wiki de Repositórios do GitHub Com React - Digital Innovation One**.
 
-## Available Scripts
+![GitWiki](./public/preview1.png)
+![GitWiki](./public/preview2.png)
 
-In the project directory, you can run:
+## Descrição
+O Git Wiki é uma aplicação que busca repositórios usando a API do GitHub por meio da biblioteca Axios.
 
-### `npm start`
+## Funcionalidades
+- Busca e exibe repositório GitHub por meio do nome completo (usuario/nome-do-repositorio)
+- Remove repositório exibido
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Como usar
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Clone o repositório para o seu ambiente local:
 
-### `npm test`
+   ```bash
+   git clone https://github.com/FavaroDarkStar/git-wiki.git
+   ``` 
+ 
+2. Acesse o diretório do projeto:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   ```bash
+   cd git-wiki
+   ```
 
-### `npm run build`
+3. Instale as dependências necessárias:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   ```bash
+   npm install
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. Execute o aplicativo:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```bash
+   npm start
+   ```
 
-### `npm run eject`
+5. Abra o navegador e acesse [http://localhost:3000](http://localhost:3000) para visualizar o aplicativo em ação.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+6. Preencha o input com o nome completo do repositório(usuario/nome-do-repositorio) e clique no botão 'Buscar'.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Agora você está pronto para explorar e experimentar o Git Wiki!
