@@ -1,5 +1,4 @@
 import React from 'react'
-
 import { ButtonContainer } from './styles'
 
 function Button({onClick}) {
@@ -9,6 +8,5 @@ function Button({onClick}) {
     </ButtonContainer>
   )
 }
-
 
 export default Button;

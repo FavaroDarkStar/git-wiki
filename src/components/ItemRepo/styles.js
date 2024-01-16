@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ItemRepoContainer = styled.div`
-    width: 80%;
+    width: 75%;
 
     h3 {
         font-size: 32px;
@@ -14,8 +14,8 @@ export const ItemRepoContainer = styled.div`
         margin-top: 20px;
     }
 
-    a.remove {
-        color: #ff0000;
+    a {
+        color: #fafafa60;
         margin-top: 20px;
     }
 
