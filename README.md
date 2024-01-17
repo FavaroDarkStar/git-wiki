@@ -12,6 +12,9 @@ O Git Wiki é uma aplicação que busca repositórios usando a API do GitHub por
 - Busca e exibe repositório GitHub por meio do nome completo (usuario/nome-do-repositorio)
 - Remove repositório exibido
 
+## Certificado
+![Certificado](./public/certificado.png)
+
 ## Como usar
 
 1. Clone o repositório para o seu ambiente local:
